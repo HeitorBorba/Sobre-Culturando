@@ -1,9 +1,13 @@
+#Pessoa1{
+  background: linear-gradient(to top,#6d1345,#7e154f 20%, #df5442 );
+  background-size: cover;
+  width: 100%;
+}
 .Pessoa{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(195, 195, 195);
     width: 100%;
     height: 350px;
 
@@ -11,6 +15,7 @@
 .Pessoa img{
   border-radius:50%;
 }
+
 
 
 
