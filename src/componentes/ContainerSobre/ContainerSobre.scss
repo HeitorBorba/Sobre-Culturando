@@ -1,0 +1,16 @@
+.Pessoa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(195, 195, 195);
+    width: 100%;
+    height: 350px;
+
+}
+.Pessoa img{
+  border-radius:50%;
+}
+
+
+
