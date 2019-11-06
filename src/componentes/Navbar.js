@@ -1,12 +1,6 @@
-import React, { useState } from "react";
-
-
-
-
-
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
-import "./Navbar.scss";
+import '../componentes/Navbar.scss';
 
 const Navbar = () => {
   const [menuAtivo, setMenuAtivo] = useState(false);
@@ -32,9 +26,9 @@ const Navbar = () => {
       </nav>
       <section className={`menu ${menuAtivo ? "ativo" : ""}`}>
         <Link onClick={fecharMenu} to="/">Home</Link>
-        <Link onClick={fecharMenu} to="/pagamento">Cursos</Link>
-        <Link onClick={fecharMenu} to="/carrinho">Sobre</Link>
-        <Link onClick={fecharMenu} to="/produtos">Cadastro</Link>
+        <Link onClick={fecharMenu} to="/cursos">Cursos</Link>
+        <Link onClick={fecharMenu} to="/sobre">Sobre</Link>
+        <Link onClick={fecharMenu} to="/cadastro">Cadastro</Link>
       </section>
     </div>
   );
