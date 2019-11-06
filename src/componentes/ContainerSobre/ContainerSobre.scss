@@ -1,21 +1,63 @@
-#Pessoa1{
-  background: linear-gradient(to top,#6d1345,#7e154f 20%, #df5442 );
+body{
+  background:linear-gradient(to top,#6d1345,#7e154f 20%, #df5442 );
+}
+
+.Pessoas{
   background-size: cover;
   width: 100%;
+  ;
 }
-.Pessoa{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: 350px;
-
-}
-.Pessoa img{
-  border-radius:50%;
+.Perfil{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 350px;
+  
 }
 
+#Titulo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#Titulo h1{
+  margin-top: 20px;
+}
+
+#Titulo p{
+  margin:10px;
+}
+
+.Perfil #Fotoperfil{
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  border: white 4px dashed;
+}
+#Redes{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#Redes img{
+  width: 45px;
+  height: 45px;
+  margin-left: 20px;
+}
+
+#Redes a{
+  cursor: pointer;
+}
+
+#Redes img{
+  cursor: pointer;
+}
+
+// background: linear-gradient(to top,#6d1345,#7e154f 20%, #df5442 );
 
 
 
