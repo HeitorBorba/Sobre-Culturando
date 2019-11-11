@@ -3,7 +3,6 @@ import '../ContainerSobre/ContainerSobre.scss';
 import Sobrenos from '../ContainerSobre/ContainerSobre.js';
 
 // Icones do google
-import Google from '../Imagens/gmail (2).png'
 import Linkedin from '../Imagens/linkedin.png'
 
 // Fotos dos integrantes
@@ -25,12 +24,12 @@ const Sobre = () => {
 
             <div className="Pessoas">
 
-                <Sobrenos lgmail="" ldin="https://www.linkedin.com/in/luana-marques-39785b197/" imagem={Luana} nome="Luana Marques" email={Google} linkedin={Linkedin} />
-                <Sobrenos lgmail="" ldin="https://www.linkedin.com/in/vanessa-da-paixão-45553b187" imagem={Vanessa} nome="Vanessa da Paixão" email={Google} linkedin={Linkedin} />
-                <Sobrenos lgmail="" ldin="" imagem={Danilo} nome="Danilo Medeiros" email={Google} linkedin={Linkedin} />
-                <Sobrenos lgmail="" ldin="https://www.linkedin.com/in/heitor-borba-da-cruz-b41911190/" imagem={Google} nome="Heitor Borba da Cruz" email={Google} linkedin={Linkedin} />
-                <Sobrenos lgmail="giovanesantlima@gmail.com" ldin="https://www.linkedin.com/in/giovane-santesso-lima-583099196/" imagem={Google} nome="Giovane Santesso Lima" email={Google} linkedin={Linkedin} />
-                <Sobrenos lgmail="" ldin="https://www.linkedin.com/in/matheus-silva-b87861197/" imagem={Google} nome="Matheus da Silva Antonio" email={Google} linkedin={Linkedin} />
+                <Sobrenos ldin="https://www.linkedin.com/in/luana-marques-39785b197/" imagem={Luana} nome="Luana Marques"  linkedin={Linkedin} />
+                <Sobrenos ldin="https://www.linkedin.com/in/vanessa-da-paixão-45553b187" imagem={Vanessa} nome="Vanessa da Paixão"  linkedin={Linkedin} />
+                <Sobrenos ldin="" imagem={Danilo} nome="Danilo Medeiros"  linkedin={Linkedin} />
+                <Sobrenos ldin="https://www.linkedin.com/in/heitor-borba-da-cruz-b41911190/"  nome="Heitor Borba da Cruz"  linkedin={Linkedin} />
+                <Sobrenos ldin="https://www.linkedin.com/in/giovane-santesso-lima-583099196/"  nome="Giovane Santesso Lima"  linkedin={Linkedin} />
+                <Sobrenos ldin="https://www.linkedin.com/in/matheus-silva-b87861197/"  nome="Matheus da Silva Antonio"  linkedin={Linkedin} />
 
             </div>
 
